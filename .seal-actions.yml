@@ -1,0 +1,21 @@
+meta:
+  schema-version: 0.1.0
+  created-on: "2024-02-15T11:42:34Z"
+  cli-version: 0.2.0
+projects:
+  2lambda123-javascript:
+    targets:
+      - package.json
+    manager:
+      ecosystem: node
+      name: npm
+      version: "7"
+    overrides:
+      semver:
+        6.3.0:
+          use: 6.3.0-sp1
+        7.3.8:
+          use: 7.3.8-sp1
+      word-wrap:
+        1.2.3:
+          use: 1.2.3-sp1
